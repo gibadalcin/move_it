@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "move_it",
+			"path": "..\\..\\git\\move_it\\move_it"
+		}
+	],
+	"settings": {}
+}

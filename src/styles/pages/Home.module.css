@@ -11,8 +11,32 @@
 .container section {
     flex: 1;
     
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
     align-content: center;
+}
+
+@media (max-width: 720px)  {
+    
+    .container section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container div {
+        width: 93.75%;
+    }
+    
+    .container  {
+        margin-right: 0;
+    }
+    
+    .container div.Countdown_countdown {
+        margin-right: 0%;
+    }
+    
 }
